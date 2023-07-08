@@ -10,7 +10,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Links](#links)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Welcome
 
@@ -31,6 +30,9 @@ Users should be able to:
 
 ![](/images/landing.jpg)
 ![](/images/landing2.jpg)
+![](/images/landing3.jpg)
+![](/images/landing4.jpg)
+![](/images/landing5.jpg)
 
 ### Links
 
