@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+	<title>Frontend Mentor | Sunnyside agency landing page</title>
+
+	<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+	<style>
+		.attribution {
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.attribution a {
+			color: hsl(228, 45%, 44%);
+		}
+
+		.menu {
+			display: none;
+		}
+
+		#menu {
+			display: none;
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="main">
+		<div class="top">
+			<nav class="nav">
+				<img src="images/logo.svg" alt="logo" class="logo">
+				<img src="images/icon-hamburger.svg" alt="icon" class="ham" id="ham">
+				<div class="links">
+					<a href="" class="about">About</a>
+					<a href="" class="services">Services</a>
+					<a href="" class="projects">Projects</a>
+					<a href="" class="contact">Contact</a>
+				</div>
+			</nav>
+			<div class="menu" id="menu">
+				<a href="" class="about">About</a>
+				<a href="" class="services">Services</a>
+				<a href="" class="projects">Projects</a>
+				<a href="" class="contact">Contact</a>
+			</div>
+			<h1>
+				WE ARE CREATIVES
+			</h1>
+			<img src="images/icon-arrow-down.svg" class="arrow-down">
+		</div>
+		<div class="image1">
+		</div>
+		<div class="learn">
+			<h2>
+				Transform your brand
+			</h2>
+			<p>
+				We are a full-service creative agency specializing in helping brands grow fast.
+				Engage your clients through compelling visuals that do most of the marketing for you.
+			</p>
+			<a href="">
+				LEARN MORE
+			</a>
+		</div>
+		<div class="image2">
+		</div>
+		<div class="learn2">
+			<h2>
+				Stand out to the right audience
+			</h2>
+			<p>
+				Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+				we’ll build
+				and extend your brand in digital places.
+			</p>
+			<a href="">
+				LEARN MORE
+			</a>
+		</div>
+		<div class="graphic">
+			<h2>
+				Graphic Design
+			</h2>
+			<p>
+				Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+				potential
+				clients’ attention.
+			</p>
+		</div>
+		<div class="photo">
+			<h2>
+				Photography
+			</h2>
+			<p>
+				Increase your credibility by getting the most stunning, high-quality photos that improve your business
+				image.
+			</p>
+		</div>
+		<div class="testimonials">
+			<h2>
+				CLIENT TESTIMONIALS
+			</h2>
+			<div class="todo">
+				<div class="test">
+					<img src="images/image-emily.jpg" alt="Emily" class="emily">
+					<p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+						always hit.</p>
+					<h3>Emily R.</h3>
+					<h4>Marketing Director</h4>
+				</div>
+				<div class="test">
+					<img src="images/image-thomas.jpg" alt="Thomas" class="thomas">
+					<p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying
+						and enjoyable
+						experience.</p>
+					<h3>Thomas S.</h3>
+					<h4>Chief Operating Officer</h4>
+				</div>
+				<div class="test">
+					<img src="images/image-jennie.jpg" alt="Jennie" class="jennie">
+					<p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+						recommended!</p>
+					<h3>Jennie F.</h3>
+					<h4>Business Owner</h4>
+				</div>
+			</div>
+		</div>
+		<div class="images">
+			<img src="images/mobile/image-gallery-milkbottles.jpg" alt="Milk bottles" class="milk">
+			<img src="images/mobile/image-gallery-orange.jpg" alt="Orange" class="orange">
+			<img src="images/mobile/image-gallery-cone.jpg" alt="Cone" class="cone">
+			<img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Sugar cubes" class="sugar">
+		</div>
+		<footer class="footer">
+			<img src="images/logo.svg" alt="logo" class="logo2">
+			<div class="info">
+				<a href="">About</a>
+				<a href="">Services</a>
+				<a href="">Projects</a>
+			</div>
+			<div class="socials">
+				<img src="images/icon-facebook.svg" alt="Facebook" class="face">
+				<img src="images/icon-instagram.svg" alt="Instagram" class="insta">
+				<img src="images/icon-twitter.svg" alt="Twitter" class="twit">
+				<img src="images/icon-pinterest.svg" alt="Pinterest" class="pinter">
+			</div>
+		</footer>
+	</div>
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="https://www.github.com/SebAcosta">Sebastián Acosta</a>.
+	</div>
+</body>
+<script>
+	const hamburger = document.getElementById("ham");
+	const menu = document.getElementById("menu");
+	let isMenuOpen = false;
+
+	hamburger.addEventListener("click", open);
+
+	function open() {
+		if (isMenuOpen) {
+			menu.style.display = "none";
+			isMenuOpen = false;
+		} else {
+			menu.style.display = "flex";
+			isMenuOpen = true;
+		}
+	}
+</script>
+
+</html>
