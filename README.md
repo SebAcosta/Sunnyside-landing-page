@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/SebAcosta/Sunnyside-landing-page)
-- Live Site URL: [Add live site URL here](https://sebacosta.github.io/Sunnyside-landing-page/)
+- Solution URL: [SebAcosta/Sunnyside](https://github.com/SebAcosta/Sunnyside-landing-page)
+- Live Site URL: [github.io/Sunnyside](https://sebacosta.github.io/Sunnyside-landing-page/)
 
 
 ## Author
